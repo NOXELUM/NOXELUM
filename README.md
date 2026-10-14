@@ -1,68 +1,90 @@
- Hi there, I'm Bui Hai Dang AkA NOXELUM👋
+<div align="center">
 
-### 🎓 Software Engineering Student at FPT University
-**Backend-Focused Full-stack Developer**
+<img src="assets/noxelum-banner.png" alt="NOXELUM — Find your light in the unknown" width="100%" />
+
+### Hi, I'm Bui Hai Dang 👋
+
+**Software Engineering Student @ FPT University**  
+Backend-focused Full-stack Developer
+
+[![GitHub](https://img.shields.io/badge/GitHub-NOXELUM-101B29?style=flat-square&logo=github&logoColor=50E6F7)](https://github.com/NOXELUM)
+[![Email](https://img.shields.io/badge/Email-Contact-101B29?style=flat-square&logo=gmail&logoColor=50E6F7)](mailto:danghaibui6@gmail.com)
+[![Open to Collaboration](https://img.shields.io/badge/Open%20to-Collaboration-101B29?style=flat-square&logo=handshake&logoColor=50E6F7)](https://github.com/NOXELUM)
+
+</div>
 
 ---
 
-## 💫 About Me
+### `01` / About me
 
-- 🎓 I'm currently studying Software Engineering at FPT University, focusing on backend and full-stack web development.
-- 👯 I'm looking to collaborate on open-source projects and real-world web applications.
-- 🤝 I'm looking to improve my knowledge of system design, scalable backend architecture, and deployment.
-- 🌱 I'm currently learning Node.js, TypeScript, React, Spring Boot, and Docker.
-- 💬 Ask me about Java, JavaScript, RESTful APIs, PostgreSQL, Git, and Linux.
-- ⚡ Fun fact: I enjoy exploring Linux and understanding how software works beyond code.
+I'm a **Software Engineering student at FPT University**, interested in building reliable backend services and practical full-stack applications. I enjoy learning how systems work, collaborating with other developers, and turning ideas into working software.
 
-## 💻 Tech Stack
+- 🔭 **Working on:** team projects and backend API development
+- 🤝 **Open to:** open-source collaboration and real-world web apps
+- 🌱 **Learning:** Node.js, TypeScript, React, Spring Boot, Docker, and system design
+- 💬 **Let's talk about:** Java, JavaScript, REST APIs, PostgreSQL, Git, and Linux
+- ⚡ **Beyond code:** Linux and development-environment customization
 
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+### `02` / Tech stack
 
-### Backend & Frontend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+**Languages**
 
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=52DDF6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=52DDF6)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=52DDF6)
+![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=52DDF6)
 
-### Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+**Web development**
 
-## 🚀 Featured Project
+![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=52DDF6)
+![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=52DDF6)
+![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=52DDF6)
+![Spring](https://img.shields.io/badge/Spring-111827?style=flat-square&logo=spring&logoColor=52DDF6)
 
-### Sports Center Management
+**Databases & tools**
 
-A team-based full-stack application for managing sports center operations.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=52DDF6)
+![MySQL](https://img.shields.io/badge/MySQL-111827?style=flat-square&logo=mysql&logoColor=52DDF6)
+![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=52DDF6)
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=52DDF6)
+![Bun](https://img.shields.io/badge/Bun-111827?style=flat-square&logo=bun&logoColor=52DDF6)
+![Docker](https://img.shields.io/badge/Docker%20(learning)-111827?style=flat-square&logo=docker&logoColor=52DDF6)
 
-**My contributions include:**
-- Building RESTful APIs for bookings, classes, and reporting.
-- Implementing role-based access control and validation.
-- Working with PostgreSQL and TypeScript.
-- Writing automated tests and documenting APIs with Swagger.
+<sub>Tech stack includes tools I use and technologies I'm currently learning; it isn't a proficiency ranking.</sub>
 
-🔗 [View Project](https://github.com/HoiLauChay/sports-center-management)
+### `03` / Featured work
 
-## 📊 GitHub Stats
+**[Sports Center Management](https://github.com/HoiLauChay/sports-center-management)** · Team project  
+A full-stack platform supporting sports center operations, bookings, classes, access control, and reporting.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=BuiHaiDang-BE&show_icons=true&theme=radical&hide_border=true)
+My contributions include backend API development, role-based authorization, validation, PostgreSQL data access, automated tests, and API documentation.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BuiHaiDang-BE&layout=compact&theme=radical&hide_border=true)
+**Selected pull requests**
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=BuiHaiDang-BE&theme=radical&hide_border=true)
+| Contribution | Highlights |
+|:--|:--|
+| [Reporting APIs · #229](https://github.com/HoiLauChay/sports-center-management/pull/229) | Member, facility and course analytics; role checks and validation |
+| [Booking & enrollment · #224](https://github.com/HoiLauChay/sports-center-management/pull/224) | Booking views, enrollment data, permissions and timestamp handling |
+| [Coach class list · #227](https://github.com/HoiLauChay/sports-center-management/pull/227) | Assigned classes, enrollment counts and automated testing |
 
-## 🌐 Connect With Me
+**Other repositories:** [Smart Warehouse Inventory Management](https://github.com/NOXELUM/Smart-Warehouse-Inventory-Management-System-SWIMS-) · [LAB211](https://github.com/NOXELUM/LAB211)
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:danghaibui6@gmail.com)
+### `04` / GitHub activity
+
+<div align="center">
+
+<img alt="GitHub stats for NOXELUM" height="165" src="https://github-readme-stats.vercel.app/api?username=NOXELUM&show_icons=true&hide_border=true&bg_color=0B111C&title_color=5BE7FF&text_color=CEDDE8&icon_color=5BE7FF" />
+<img alt="Top languages for NOXELUM" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NOXELUM&layout=compact&hide_border=true&bg_color=0B111C&title_color=5BE7FF&text_color=CEDDE8" />
+
+</div>
+
+<sub>Stats are generated by third-party services and may load intermittently or omit some organization contributions.</sub>
+
+---
+
+<div align="center">
+
+**FIND YOUR LIGHT IN THE UNKNOWN.**  
+<sub>NOXELUM · Learn · Build · Improve · Share</sub>
+
+</div>
