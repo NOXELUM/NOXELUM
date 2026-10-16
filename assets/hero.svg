@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="NOXELUM animated cyan eclipse banner">
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050912"/><stop offset=".55" stop-color="#0c1d2d"/><stop offset="1" stop-color="#040b14"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#23cbec" stop-opacity=".30"/><stop offset="1" stop-color="#23cbec" stop-opacity="0"/></radialGradient>
+  <linearGradient id="rim"><stop stop-color="#086c98"/><stop offset=".5" stop-color="#b9fbff"/><stop offset="1" stop-color="#0b78a5"/></linearGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#4ccdf0" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1000" height="330" rx="14" fill="url(#bg)"/>
+<rect width="1000" height="330" rx="14" fill="url(#grid)"/>
+<ellipse cx="776" cy="155" rx="260" ry="225" fill="url(#aura)"><animate attributeName="opacity" values=".5;1;.5" dur="7s" repeatCount="indefinite"/></ellipse>
+<circle cx="779" cy="158" r="113" fill="#071420" stroke="#174760" stroke-width="3"/>
+<g transform="translate(779 158)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite"/><circle r="126" fill="none" stroke="url(#rim)" stroke-width="4" stroke-dasharray="220 32 16 50" stroke-linecap="round"/><circle r="139" fill="none" stroke="#50dff9" stroke-width="1" stroke-opacity=".27" stroke-dasharray="1 15"/></g></g>
+<circle cx="779" cy="158" r="96" fill="#050d17" stroke="#58e5ff" stroke-opacity=".25" stroke-width="1"/>
+<g fill="#a5f7ff">
+<circle cx="62" cy="43" r="1.8"><animate attributeName="opacity" values=".2;1;.2" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="234" cy="66" r="1"/><circle cx="475" cy="40" r="1.8"><animate attributeName="opacity" values="1;.2;1" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="579" cy="102" r="1"/><circle cx="939" cy="78" r="1.7"/><circle cx="913" cy="277" r="1.2"><animate attributeName="opacity" values=".1;1;.1" dur="4.8s" repeatCount="indefinite"/></circle>
+</g>
+<path d="M0 274L100 247 188 266 290 225 390 255 480 225 560 259 644 226 730 271 811 237 922 269 1000 228V330H0Z" fill="#0b2535" opacity=".95"/>
+<path d="M0 302L112 272 231 300 330 262 463 315 576 279 691 308 820 268 1000 304V330H0Z" fill="#071724"/>
+<path d="M30 30h84M30 30v42M970 30h-84M970 30v42M30 300h84M30 300v-42M970 300h-84M970 300v-42" fill="none" stroke="#43d7ef" stroke-opacity=".55" stroke-width="2"/>
+<text x="58" y="81" font-family="monospace" font-size="12" letter-spacing="3" fill="#64dce9">// DEVELOPER · LEARNER · EXPLORER</text>
+<text x="53" y="185" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="80" letter-spacing="11" fill="#effbff">NOXELUM</text>
+<rect x="58" y="203" width="90" height="3" fill="#4edff5"><animate attributeName="width" values="40;105;40" dur="5s" repeatCount="indefinite"/></rect>
+<text x="58" y="246" font-family="monospace" font-size="17" letter-spacing="2.5" fill="#8ce5f3">FIND YOUR LIGHT IN THE UNKNOWN.</text>
+<text x="951" y="303" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="2" fill="#83a9ba">BUILD / LEARN / IMPROVE</text>
+</svg>
