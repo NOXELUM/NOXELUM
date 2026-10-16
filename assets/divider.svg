@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 28" role="img" aria-label="Cyan animated section divider">
-<defs><linearGradient id="line"><stop stop-color="#072b40"/><stop offset=".5" stop-color="#4de6ff"><animate attributeName="stop-color" values="#4de6ff;#108bac;#4de6ff" dur="5s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#072b40"/></linearGradient></defs>
-<path d="M14 14H470l30-10 30 10h456" fill="none" stroke="url(#line)" stroke-width="2"/>
-<circle cx="500" cy="14" r="5" fill="#6af0ff"><animate attributeName="opacity" values=".3;1;.3" dur="2.5s" repeatCount="indefinite"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 42" role="img" aria-label="Cyan animated divider">
+<defs><linearGradient id="line"><stop stop-color="#16c7ee" stop-opacity="0"/><stop offset=".5" stop-color="#91f4ff"/><stop offset="1" stop-color="#16c7ee" stop-opacity="0"/></linearGradient></defs>
+<path d="M12 13H400L476 21H524L600 13H988" fill="none" stroke="#14516b" stroke-width="2"/><path d="M12 21H425L477 21H523L575 21H988" fill="none" stroke="url(#line)" stroke-width="2.5" stroke-dasharray="60 16"><animate attributeName="stroke-dashoffset" from="0" to="-152" dur="5s" repeatCount="indefinite"/></path>
+<path d="M486 21l14-11 14 11-14 11Z" fill="#0d2a3a" stroke="#54e7fa" stroke-width="1.5"/><circle cx="500" cy="21" r="3" fill="#e2fcff"><animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>
 </svg>
