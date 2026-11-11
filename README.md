@@ -101,10 +101,10 @@ My part is the backend — **REST APIs, authorization, validation, PostgreSQL, t
 ## `04` / GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NOXELUM&show_icons=true&hide_border=true&bg_color=0B1522&title_color=5CE5F7&text_color=D4E7EE&icon_color=5CE5F7" height="165" alt="NOXELUM GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NOXELUM&layout=compact&hide_border=true&bg_color=0B1522&title_color=5CE5F7&text_color=D4E7EE" height="165" alt="NOXELUM top languages" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="NOXELUM GitHub stats" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="NOXELUM most used languages" />
   <br />
-  <sub>Third-party statistics may load slowly and don't always include organization contributions.</sub>
+  <sub>Cards are generated daily by GitHub Actions and may not include organization contributions.</sub>
 </div>
 
 <br />
