@@ -87,6 +87,8 @@ My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL
 | [**#311** · Admin list priorities](https://github.com/HoiLauChay/sports-center-management/pull/311) | Admin lists surface what the manager needs to act on first · API |
 | [**#335** · Coach class conflict fix](https://github.com/HoiLauChay/sports-center-management/pull/335) | Stop coaches from teaching and attending the same class · validation · API |
 
+<sub>**62 commits** on `main` in total — also on features that landed through teammates' PRs: attendance, personal schedules, class and coach workflows, course and support modules, each with tests.</sub>
+
 </div>
 
 <sub>Project stack: `Bun` · `Turborepo` · `Express` · `Prisma` · `PostgreSQL` · `React` · `Vite` · `TanStack` · `Ant Design`</sub>
