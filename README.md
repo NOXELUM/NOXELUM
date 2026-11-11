@@ -84,6 +84,8 @@ My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL
 | [**#224** · Booking & enrollment](https://github.com/HoiLauChay/sports-center-management/pull/224) | Booking and enrollment views · ownership and role checks |
 | [**#227** · Coach class list](https://github.com/HoiLauChay/sports-center-management/pull/227) | Coach-scoped class list · enrollment counts · tests |
 | [**#199** · Slot picker & reception schedule](https://github.com/HoiLauChay/sports-center-management/pull/199) | Frontend · facility slot picker · slot grid layout · reception schedule · selection logic and tests |
+| [**#311** · Admin list priorities](https://github.com/HoiLauChay/sports-center-management/pull/311) | Admin lists surface what the manager needs to act on first · API |
+| [**#335** · Coach class conflict fix](https://github.com/HoiLauChay/sports-center-management/pull/335) | Stop coaches from teaching and attending the same class · validation · API |
 
 </div>
 
