@@ -30,7 +30,7 @@
   <tr>
     <td width="50%" valign="top">
       <b>🔭 Working on</b><br />
-      Team projects and backend REST APIs
+      Team projects, backend REST APIs and some frontend work
     </td>
     <td width="50%" valign="top">
       <b>🌱 Learning</b><br />
@@ -74,7 +74,7 @@
 ### 🏟️ [Sports Center Management](https://github.com/HoiLauChay/sports-center-management)
 
 A team-based full-stack application for sports center operations: **bookings, classes, memberships and reporting.**
-My part is the backend — **REST APIs, authorization, validation, PostgreSQL, tests and Swagger docs.**
+My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL, tests and Swagger docs** — plus some **frontend**: the booking slot picker and reception schedule.
 
 <div align="center">
 
@@ -83,6 +83,7 @@ My part is the backend — **REST APIs, authorization, validation, PostgreSQL, t
 | [**#229** · Reporting APIs](https://github.com/HoiLauChay/sports-center-management/pull/229) | Member, facility and course reports · permissions · validation |
 | [**#224** · Booking & enrollment](https://github.com/HoiLauChay/sports-center-management/pull/224) | Booking and enrollment views · ownership and role checks |
 | [**#227** · Coach class list](https://github.com/HoiLauChay/sports-center-management/pull/227) | Coach-scoped class list · enrollment counts · tests |
+| [**#199** · Slot picker & reception schedule](https://github.com/HoiLauChay/sports-center-management/pull/199) | Frontend · facility slot picker · slot grid layout · reception schedule · selection logic and tests |
 
 </div>
 
