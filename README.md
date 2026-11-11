@@ -94,7 +94,7 @@ My part is the backend — **REST APIs, authorization, validation, PostgreSQL, t
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
 | **[Focus Quest](https://github.com/NOXELUM/Focus-Quest)**<br /><sub>🚧 In progress</sub> | Gamified focus app — earn XP, level up, keep streaks and redeem rewards. | `React` `TanStack` `Ant Design` `Express` `SQLite` |
-| **[SupportHub AI](https://github.com/NOXELUM/SupportHub-AI)**<br /><sub>🚧 Just started</sub> | Helpdesk / ticketing system with an AI assistant, built solo as a portfolio project. | `Spring Boot` `React` `TypeScript` `PostgreSQL` |
+| **[SupportHub AI](https://github.com/NOXELUM/SupportHub-AI)**<br /><sub>🚧 In progress</sub> | Helpdesk / ticketing system with an AI assistant, built solo as a portfolio project. | `Spring Boot` `React` `TypeScript` `PostgreSQL` |
 
 <br />
 
