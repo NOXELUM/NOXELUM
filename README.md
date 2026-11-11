@@ -34,7 +34,7 @@
     </td>
     <td width="50%" valign="top">
       <b>🌱 Learning</b><br />
-      Node.js · TypeScript · React · Spring Boot · Docker · System design
+      Node.js · TypeScript · React · Spring Boot · Docker · CI/CD & DevOps · System design
     </td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@
 | **⚙️ Backend** | <img src="https://cdn.simpleicons.org/nodedotjs/56E5F6" width="32" height="32" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/express/56E5F6" width="32" height="32" alt="Express" title="Express" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/springboot/56E5F6" width="32" height="32" alt="Spring Boot" title="Spring Boot" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/swagger/56E5F6" width="32" height="32" alt="Swagger" title="Swagger" /><br /><sub>`REST APIs` · `Authorization` · `Validation` · `Swagger docs` · `Testing`</sub> |
 | **🎨 Frontend** | <img src="https://cdn.simpleicons.org/react/56E5F6" width="32" height="32" alt="React" title="React" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/tanstack/56E5F6" width="32" height="32" alt="TanStack" title="TanStack" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/antdesign/56E5F6" width="32" height="32" alt="Ant Design" title="Ant Design" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/vite/56E5F6" width="32" height="32" alt="Vite" title="Vite" /><br /><sub>`React` · `TanStack Router` · `TanStack Query` · `TanStack Form` · `Ant Design` · `Vite`</sub> |
 | **🗄️ Database** | <img src="https://cdn.simpleicons.org/postgresql/56E5F6" width="32" height="32" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/mysql/56E5F6" width="32" height="32" alt="MySQL" title="MySQL" /><br /><sub>`PostgreSQL` · `MySQL`</sub> |
-| **🧰 Tools** | <img src="https://cdn.simpleicons.org/git/56E5F6" width="32" height="32" alt="Git" title="Git" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/linux/56E5F6" width="32" height="32" alt="Linux" title="Linux" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/bun/56E5F6" width="32" height="32" alt="Bun" title="Bun" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/docker/56E5F6" width="32" height="32" alt="Docker (learning)" title="Docker (learning)" /><br /><sub>`Git` · `Linux` · `Bun` · `Docker` *(learning)*</sub> |
+| **🧰 Tools** | <img src="https://cdn.simpleicons.org/git/56E5F6" width="32" height="32" alt="Git" title="Git" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/linux/56E5F6" width="32" height="32" alt="Linux" title="Linux" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/bun/56E5F6" width="32" height="32" alt="Bun" title="Bun" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/docker/56E5F6" width="32" height="32" alt="Docker (learning)" title="Docker (learning)" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/githubactions/56E5F6" width="32" height="32" alt="GitHub Actions (learning)" title="GitHub Actions (learning)" /><br /><sub>`Git` · `Linux` · `Bun` · `Docker` · `CI/CD` *(learning)*</sub> |
 
 </div>
 
