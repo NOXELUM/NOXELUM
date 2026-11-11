@@ -15,14 +15,14 @@
 <ellipse cx="779" cy="158" rx="250" ry="200" fill="url(#aura)"><animate attributeName="opacity" values=".65;1;.65" dur="7s" repeatCount="indefinite"/></ellipse>
 <!-- Gravitational haze and distant lensing -->
 <ellipse cx="779" cy="158" rx="153" ry="57" transform="rotate(-14 779 158)" fill="none" stroke="#13bce9" stroke-width="28" opacity=".24" filter="url(#soft)"/>
-<!-- The back half of the accretion disk (static) -->
+<!-- The back half of the accretion disk (light flows around it) -->
 <g transform="translate(779 158) rotate(-14)">
  <g>
   <ellipse rx="137" ry="37" fill="none" stroke="#0b9bd1" stroke-width="26" opacity=".28" filter="url(#soft)"/>
   <ellipse rx="137" ry="37" fill="none" stroke="url(#ring)" stroke-width="16" opacity=".9" filter="url(#glow)"/>
   <ellipse rx="142" ry="39" fill="none" stroke="url(#ringThin)" stroke-width="3" opacity=".98"/>
-  <ellipse rx="126" ry="31" fill="none" stroke="#e9fdff" stroke-width="1.7" stroke-dasharray="32 9 5 13" opacity=".9"/>
-  <ellipse rx="119" ry="26" fill="none" stroke="#4adfff" stroke-width="1" stroke-dasharray="3 14 22 8" opacity=".7"/>
+  <ellipse rx="126" ry="31" fill="none" stroke="#e9fdff" stroke-width="1.7" stroke-dasharray="32 9 5 13" opacity=".9"><animate attributeName="stroke-dashoffset" from="0" to="-59" dur="5s" repeatCount="indefinite"/></ellipse>
+  <ellipse rx="119" ry="26" fill="none" stroke="#4adfff" stroke-width="1" stroke-dasharray="3 14 22 8" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="-47" dur="3.5s" repeatCount="indefinite"/></ellipse>
  </g>
 </g>
 <!-- Event horizon -->
@@ -40,7 +40,7 @@
  <path d="M642 158 C672 209 882 209 916 158" fill="none" stroke="#12b9eb" stroke-width="23" opacity=".45" filter="url(#glow)"/>
  <path d="M642 158 C672 209 882 209 916 158" fill="none" stroke="url(#ring)" stroke-width="11" stroke-linecap="round" filter="url(#glow)"/>
  <path d="M654 162 C691 197 862 197 903 162" fill="none" stroke="#e9fdff" stroke-width="2" opacity=".98"/>
- <path d="M673 174 C718 202 842 202 883 174" fill="none" stroke="#4cdefb" stroke-width="2.4" stroke-dasharray="25 10 3 8" opacity=".9"/>
+ <path d="M673 174 C718 202 842 202 883 174" fill="none" stroke="#4cdefb" stroke-width="2.4" stroke-dasharray="25 10 3 8" opacity=".9"><animate attributeName="stroke-dashoffset" from="0" to="46" dur="3s" repeatCount="indefinite"/></path>
 </g>
 <!-- Small orbiting particles -->
 <g fill="#a5f7ff">
