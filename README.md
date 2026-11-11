@@ -57,14 +57,12 @@
 
 <div align="center">
 
-| | |
+| Domain | Stack |
 |:--|:--|
-| **Languages** | ![Java](https://img.shields.io/badge/Java-101c28?style=flat-square&logo=openjdk&logoColor=56e5f6) ![JavaScript](https://img.shields.io/badge/JavaScript-101c28?style=flat-square&logo=javascript&logoColor=56e5f6) ![TypeScript](https://img.shields.io/badge/TypeScript-101c28?style=flat-square&logo=typescript&logoColor=56e5f6) ![SQL](https://img.shields.io/badge/SQL-101c28?style=flat-square&logo=postgresql&logoColor=56e5f6) |
-| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-101c28?style=flat-square&logo=nodedotjs&logoColor=56e5f6) ![Express](https://img.shields.io/badge/Express-101c28?style=flat-square&logo=express&logoColor=56e5f6) ![Spring](https://img.shields.io/badge/Spring_Boot-101c28?style=flat-square&logo=spring&logoColor=56e5f6) ![Swagger](https://img.shields.io/badge/Swagger-101c28?style=flat-square&logo=swagger&logoColor=56e5f6) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-101c28?style=flat-square&logo=react&logoColor=56e5f6) |
-| **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-101c28?style=flat-square&logo=postgresql&logoColor=56e5f6) ![MySQL](https://img.shields.io/badge/MySQL-101c28?style=flat-square&logo=mysql&logoColor=56e5f6) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-101c28?style=flat-square&logo=git&logoColor=56e5f6) ![Linux](https://img.shields.io/badge/Linux-101c28?style=flat-square&logo=linux&logoColor=56e5f6) ![Bun](https://img.shields.io/badge/Bun-101c28?style=flat-square&logo=bun&logoColor=56e5f6) |
-| **Learning** | ![Docker](https://img.shields.io/badge/Docker-in_progress-101c28?style=flat-square&logo=docker&logoColor=56e5f6) |
+| **☕ Languages** | <img src="https://cdn.simpleicons.org/openjdk/56E5F6" width="32" height="32" alt="Java" title="Java" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/56E5F6" width="32" height="32" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/typescript/56E5F6" width="32" height="32" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/postgresql/56E5F6" width="32" height="32" alt="SQL" title="SQL" /><br /><sub>`Java` · `JavaScript` · `TypeScript` · `SQL`</sub> |
+| **⚙️ Backend & Web** | <img src="https://cdn.simpleicons.org/nodedotjs/56E5F6" width="32" height="32" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/express/56E5F6" width="32" height="32" alt="Express" title="Express" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/springboot/56E5F6" width="32" height="32" alt="Spring Boot" title="Spring Boot" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/react/56E5F6" width="32" height="32" alt="React" title="React" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/swagger/56E5F6" width="32" height="32" alt="Swagger" title="Swagger" /><br /><sub>`REST APIs` · `Authorization` · `Validation` · `Swagger docs` · `Testing`</sub> |
+| **🗄️ Database** | <img src="https://cdn.simpleicons.org/postgresql/56E5F6" width="32" height="32" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/mysql/56E5F6" width="32" height="32" alt="MySQL" title="MySQL" /><br /><sub>`PostgreSQL` · `MySQL`</sub> |
+| **🧰 Tools** | <img src="https://cdn.simpleicons.org/git/56E5F6" width="32" height="32" alt="Git" title="Git" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/linux/56E5F6" width="32" height="32" alt="Linux" title="Linux" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/bun/56E5F6" width="32" height="32" alt="Bun" title="Bun" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/docker/56E5F6" width="32" height="32" alt="Docker (learning)" title="Docker (learning)" /><br /><sub>`Git` · `Linux` · `Bun` · `Docker` *(learning)*</sub> |
 
 </div>
 
@@ -87,12 +85,20 @@ My part is the backend — **REST APIs, authorization, validation, PostgreSQL, t
 
 </div>
 
-<details>
-  <summary><b>More repositories</b></summary>
-  <br />
+<sub>Project stack: `Bun` · `Turborepo` · `Express` · `Prisma` · `PostgreSQL` · `React` · `Vite` · `TanStack` · `Ant Design`</sub>
 
-  - 📦 [Smart Warehouse Inventory Management](https://github.com/NOXELUM/Smart-Warehouse-Inventory-Management-System-SWIMS-)
-  - 🧪 [LAB211](https://github.com/NOXELUM/LAB211)
+<br />
+
+### 🗂️ Project index
+
+<details open>
+<summary><b>☕ Java projects & coursework</b></summary>
+<br />
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[SWIMS](https://github.com/NOXELUM/Smart-Warehouse-Inventory-Management-System-SWIMS-)** | Smart Warehouse Inventory Management System — products, batches, storage locations and transactions, with an indexed min-heap and a performance test. | `Java` |
+| **[LAB211](https://github.com/NOXELUM/LAB211)** | Lab assignments from the FPT LAB211 course, including *Traditional Feast Order Management* and *Software Developer Management*. | `Java` |
 
 </details>
 
@@ -104,7 +110,15 @@ My part is the backend — **REST APIs, authorization, validation, PostgreSQL, t
   <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="NOXELUM GitHub stats" />
   <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="NOXELUM most used languages" />
   <br />
-  <sub>Cards are generated daily by GitHub Actions and may not include organization contributions.</sub>
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="NOXELUM repositories per language" />
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="NOXELUM productive time" />
+  <br /><br />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NOXELUM/NOXELUM/output/pacman-contribution-graph.svg" />
+    <img src="https://raw.githubusercontent.com/NOXELUM/NOXELUM/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man eating my contribution graph" />
+  </picture>
+  <br />
+  <sub>Cards and the Pac-Man graph are generated by GitHub Actions and may not include organization contributions.</sub>
 </div>
 
 <br />
