@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="NOXELUM animated cyan black hole banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="NOXELUM cyan black hole banner">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#040812"/><stop offset=".56" stop-color="#0b1a2b"/><stop offset="1" stop-color="#030912"/></linearGradient>
   <radialGradient id="aura"><stop stop-color="#12c9f7" stop-opacity=".32"/><stop offset=".55" stop-color="#0878ae" stop-opacity=".14"/><stop offset="1" stop-color="#23cbec" stop-opacity="0"/></radialGradient>
@@ -15,9 +15,9 @@
 <ellipse cx="779" cy="158" rx="250" ry="200" fill="url(#aura)"><animate attributeName="opacity" values=".65;1;.65" dur="7s" repeatCount="indefinite"/></ellipse>
 <!-- Gravitational haze and distant lensing -->
 <ellipse cx="779" cy="158" rx="153" ry="57" transform="rotate(-14 779 158)" fill="none" stroke="#13bce9" stroke-width="28" opacity=".24" filter="url(#soft)"/>
-<!-- The back half of the accretion disk rotates slowly around the event horizon -->
+<!-- The back half of the accretion disk (static) -->
 <g transform="translate(779 158) rotate(-14)">
- <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="46s" repeatCount="indefinite"/>
+ <g>
   <ellipse rx="137" ry="37" fill="none" stroke="#0b9bd1" stroke-width="26" opacity=".28" filter="url(#soft)"/>
   <ellipse rx="137" ry="37" fill="none" stroke="url(#ring)" stroke-width="16" opacity=".9" filter="url(#glow)"/>
   <ellipse rx="142" ry="39" fill="none" stroke="url(#ringThin)" stroke-width="3" opacity=".98"/>
@@ -57,5 +57,5 @@
 <text x="53" y="185" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="80" letter-spacing="11" fill="#effbff">NOXELUM</text>
 <rect x="58" y="203" width="90" height="3" fill="#4edff5"><animate attributeName="width" values="40;105;40" dur="5s" repeatCount="indefinite"/></rect>
 <text x="58" y="246" font-family="monospace" font-size="17" letter-spacing="2.5" fill="#8ce5f3">FIND YOUR LIGHT IN THE UNKNOWN.</text>
-<text x="951" y="303" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="2" fill="#83a9ba">BUILD / LEARN / IMPROVE</text>
+<text x="951" y="320" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="2" fill="#83a9ba">BUILD / LEARN / IMPROVE</text>
 </svg>
