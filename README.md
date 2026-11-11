@@ -89,18 +89,12 @@ My part is the backend — **REST APIs, authorization, validation, PostgreSQL, t
 
 <br />
 
-### 🗂️ Project index
-
-<details open>
-<summary><b>☕ Java projects & coursework</b></summary>
-<br />
+### 🚧 Personal projects
 
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
-| **[SWIMS](https://github.com/NOXELUM/Smart-Warehouse-Inventory-Management-System-SWIMS-)** | Smart Warehouse Inventory Management System — products, batches, storage locations and transactions, with an indexed min-heap and a performance test. | `Java` |
-| **[LAB211](https://github.com/NOXELUM/LAB211)** | Lab assignments from the FPT LAB211 course, including *Traditional Feast Order Management* and *Software Developer Management*. | `Java` |
-
-</details>
+| **[Focus Quest](https://github.com/NOXELUM/Focus-Quest)**<br /><sub>🚧 In progress</sub> | Gamified focus app — earn XP, level up, keep streaks and redeem rewards. | `React` `TanStack` `Ant Design` `Express` `SQLite` |
+| **[SupportHub AI](https://github.com/NOXELUM/SupportHub-AI)**<br /><sub>🚧 Just started</sub> | Helpdesk / ticketing system with an AI assistant, built solo as a portfolio project. | `Spring Boot` `React` `TypeScript` `PostgreSQL` |
 
 <br />
 
