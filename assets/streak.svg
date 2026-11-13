@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="170" viewBox="0 0 495 170" role="img" aria-label="NOXELUM contribution streak">
+  <rect x="0.5" y="0.5" width="494" height="169" rx="10" fill="#0B1B27" stroke="#56E5F6" stroke-opacity="0.35"/>
+  <g font-family="Segoe UI, Ubuntu, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <line x1="165" y1="30" x2="165" y2="140" stroke="#56E5F6" stroke-opacity="0.2"/>
+    <line x1="330" y1="30" x2="330" y2="140" stroke="#56E5F6" stroke-opacity="0.2"/>
+    <text x="82.5" y="80" font-size="34" font-weight="700" fill="#56E5F6">229</text>
+    <text x="82.5" y="106" font-size="13" font-weight="600" fill="#E6F7FB">Total contributions</text>
+    <text x="82.5" y="126" font-size="11" fill="#7FA3B5">Jan 1, 2024 – Present</text>
+    <circle cx="247.5" cy="70" r="38" fill="none" stroke="#56E5F6" stroke-width="4"/>
+    <text x="247.5" y="80" font-size="30" font-weight="700" fill="#56E5F6">5</text>
+    <text x="247.5" y="128" font-size="13" font-weight="600" fill="#E6F7FB">Current streak</text>
+    <text x="247.5" y="148" font-size="11" fill="#7FA3B5">Nov 9 – Nov 13</text>
+    <text x="412.5" y="80" font-size="34" font-weight="700" fill="#56E5F6">6</text>
+    <text x="412.5" y="106" font-size="13" font-weight="600" fill="#E6F7FB">Longest streak</text>
+    <text x="412.5" y="126" font-size="11" fill="#7FA3B5">Apr 9 – Apr 14</text>
+  </g>
+</svg>
