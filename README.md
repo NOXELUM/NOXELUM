@@ -113,6 +113,8 @@ My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL
   <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="NOXELUM repositories per language" />
   <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="NOXELUM productive time" />
   <br /><br />
+  <img src="./assets/streak.svg" width="49%" alt="NOXELUM contribution streak" />
+  <br /><br />
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NOXELUM/NOXELUM/output/pacman-contribution-graph.svg" />
     <img src="https://raw.githubusercontent.com/NOXELUM/NOXELUM/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man eating my contribution graph" />
