@@ -3,13 +3,13 @@
   <g font-family="Segoe UI, Ubuntu, 'Helvetica Neue', Arial, sans-serif">
     <text x="22" y="34" font-size="18" font-weight="600" fill="#56E5F6">Stats</text>
     <text x="22" y="68" font-size="13" fill="#E6F7FB">Total Stars:</text><text x="150" y="68" font-size="13" font-weight="700" fill="#56E5F6">0</text>
-    <text x="22" y="92" font-size="13" fill="#E6F7FB">Total Commits:</text><text x="150" y="92" font-size="13" font-weight="700" fill="#56E5F6">174</text>
+    <text x="22" y="92" font-size="13" fill="#E6F7FB">Total Commits:</text><text x="150" y="92" font-size="13" font-weight="700" fill="#56E5F6">175</text>
     <text x="22" y="116" font-size="13" fill="#E6F7FB">Total PRs:</text><text x="150" y="116" font-size="13" font-weight="700" fill="#56E5F6">13</text>
     <text x="22" y="140" font-size="13" fill="#E6F7FB">Total Issues:</text><text x="150" y="140" font-size="13" font-weight="700" fill="#56E5F6">2</text>
     <text x="22" y="164" font-size="13" fill="#E6F7FB">Contributed to:</text><text x="150" y="164" font-size="13" font-weight="700" fill="#56E5F6">3</text>
     <g transform="translate(262 98)">
       <circle r="30" fill="none" stroke="#56E5F6" stroke-opacity="0.18" stroke-width="6"/>
-      <circle r="30" fill="none" stroke="#56E5F6" stroke-width="6" stroke-linecap="round" stroke-dasharray="30.80 188.50" transform="rotate(-90)"/>
+      <circle r="30" fill="none" stroke="#56E5F6" stroke-width="6" stroke-linecap="round" stroke-dasharray="30.85 188.50" transform="rotate(-90)"/>
       <text text-anchor="middle" y="9" font-size="26" font-weight="700" fill="#56E5F6">C+</text>
     </g>
     <text x="262" y="148" text-anchor="middle" font-size="10" fill="#7FA3B5">Top 84% (est.)</text>
