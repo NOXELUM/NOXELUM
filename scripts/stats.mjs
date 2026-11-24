@@ -44,7 +44,7 @@ async function fetchStats(login, token) {
     closedIssues:issues(states:CLOSED){totalCount}
     contributionsCollection{totalCommitContributions totalPullRequestReviewContributions}
     repositoriesContributedTo(first:1,contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){totalCount}
-    repositories(ownerAffiliations:OWNER,isFork:false,first:100){nodes{stargazers{totalCount}}}
+    repositories(ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC,first:100){nodes{stargazers{totalCount}}}
   }}`;
   const u = (await gql(q, { l: login }, token)).user;
   return {
