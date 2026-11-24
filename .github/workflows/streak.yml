@@ -8,6 +8,7 @@ on:
     paths:
       - scripts/streak.mjs
       - scripts/stats.mjs
+      - scripts/theme.mjs
       - .github/workflows/streak.yml
 
 permissions:
@@ -29,9 +30,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/stats.mjs ${{ github.repository_owner }} assets/stats.svg
+      - name: Recolor summary cards
+        run: node scripts/theme.mjs
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak.svg assets/stats.svg
-          git diff --staged --quiet || (git commit -m "chore: update streak and stats cards" && git push)
+          git add assets/streak.svg assets/stats.svg assets/lang-commit.svg assets/lang-repo.svg assets/productive-time.svg
+          git diff --staged --quiet || (git commit -m "chore: update profile cards" && git push)
