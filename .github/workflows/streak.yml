@@ -1,4 +1,4 @@
-name: Streak card
+name: Streak and stats cards
 
 on:
   schedule:
@@ -7,13 +7,14 @@ on:
   push:
     paths:
       - scripts/streak.mjs
+      - scripts/stats.mjs
       - .github/workflows/streak.yml
 
 permissions:
   contents: write
 
 jobs:
-  streak:
+  cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,9 +25,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/streak.mjs ${{ github.repository_owner }} assets/streak.svg
+      - name: Generate stats card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/stats.mjs ${{ github.repository_owner }} assets/stats.svg
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak.svg
-          git diff --staged --quiet || (git commit -m "chore: update streak card" && git push)
+          git add assets/streak.svg assets/stats.svg
+          git diff --staged --quiet || (git commit -m "chore: update streak and stats cards" && git push)
