@@ -108,10 +108,10 @@ My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL
 
 <div align="center">
   <img src="./assets/stats.svg" width="49%" alt="NOXELUM GitHub stats" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="NOXELUM most used languages" />
+  <img src="./assets/lang-commit.svg" width="49%" alt="NOXELUM most used languages" />
   <br />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="NOXELUM repositories per language" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="NOXELUM productive time" />
+  <img src="./assets/lang-repo.svg" width="49%" alt="NOXELUM repositories per language" />
+  <img src="./assets/productive-time.svg" width="49%" alt="NOXELUM productive time" />
   <br /><br />
   <img src="./assets/streak.svg" width="49%" alt="NOXELUM contribution streak" />
   <br /><br />
