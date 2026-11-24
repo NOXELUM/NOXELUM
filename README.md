@@ -107,7 +107,7 @@ My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL
 ## `04` / GitHub activity
 
 <div align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="NOXELUM GitHub stats" />
+  <img src="./assets/stats.svg" width="49%" alt="NOXELUM GitHub stats" />
   <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="NOXELUM most used languages" />
   <br />
   <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="NOXELUM repositories per language" />
