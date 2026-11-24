@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="NOXELUM GitHub stats, rank C+">
-  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#0B1B27" stroke="#56E5F6" stroke-opacity="0.35"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="NOXELUM GitHub stats, rank C+">
+  <rect x="1" y="1" rx="5" ry="5" width="338" height="198" fill="#0B1B27" stroke="#56E5F6" stroke-opacity="0.35"/>
   <g font-family="Segoe UI, Ubuntu, 'Helvetica Neue', Arial, sans-serif">
-    <text x="28" y="38" font-size="18" font-weight="700" fill="#56E5F6">NOXELUM's GitHub Stats</text>
-    <text x="28" y="72" font-size="13" fill="#E6F7FB">Total Stars Earned:</text><text x="258" y="72" font-size="13" font-weight="700" fill="#56E5F6">0</text>
-    <text x="28" y="98" font-size="13" fill="#E6F7FB">Total Commits (last year):</text><text x="258" y="98" font-size="13" font-weight="700" fill="#56E5F6">134</text>
-    <text x="28" y="124" font-size="13" fill="#E6F7FB">Total PRs:</text><text x="258" y="124" font-size="13" font-weight="700" fill="#56E5F6">13</text>
-    <text x="28" y="150" font-size="13" fill="#E6F7FB">Total Issues:</text><text x="258" y="150" font-size="13" font-weight="700" fill="#56E5F6">2</text>
-    <text x="28" y="176" font-size="13" fill="#E6F7FB">Contributed to (last year):</text><text x="258" y="176" font-size="13" font-weight="700" fill="#56E5F6">3</text>
-    <g transform="translate(400 105)">
-      <circle r="38" fill="none" stroke="#56E5F6" stroke-opacity="0.18" stroke-width="6"/>
-      <circle r="38" fill="none" stroke="#56E5F6" stroke-width="6" stroke-linecap="round" stroke-dasharray="36.13 238.76" transform="rotate(-90)"/>
-      <text text-anchor="middle" y="9" font-size="28" font-weight="700" fill="#56E5F6">C+</text>
+    <text x="22" y="34" font-size="18" font-weight="600" fill="#56E5F6">Stats</text>
+    <text x="22" y="68" font-size="13" fill="#E6F7FB">Total Stars:</text><text x="150" y="68" font-size="13" font-weight="700" fill="#56E5F6">0</text>
+    <text x="22" y="92" font-size="13" fill="#E6F7FB">Total Commits:</text><text x="150" y="92" font-size="13" font-weight="700" fill="#56E5F6">172</text>
+    <text x="22" y="116" font-size="13" fill="#E6F7FB">Total PRs:</text><text x="150" y="116" font-size="13" font-weight="700" fill="#56E5F6">13</text>
+    <text x="22" y="140" font-size="13" fill="#E6F7FB">Total Issues:</text><text x="150" y="140" font-size="13" font-weight="700" fill="#56E5F6">2</text>
+    <text x="22" y="164" font-size="13" fill="#E6F7FB">Contributed to:</text><text x="150" y="164" font-size="13" font-weight="700" fill="#56E5F6">3</text>
+    <g transform="translate(262 98)">
+      <circle r="30" fill="none" stroke="#56E5F6" stroke-opacity="0.18" stroke-width="6"/>
+      <circle r="30" fill="none" stroke="#56E5F6" stroke-width="6" stroke-linecap="round" stroke-dasharray="30.69 188.50" transform="rotate(-90)"/>
+      <text text-anchor="middle" y="9" font-size="26" font-weight="700" fill="#56E5F6">C+</text>
     </g>
-    <text x="400" y="168" text-anchor="middle" font-size="10" fill="#7FA3B5">Top 85% (est.)</text>
+    <text x="262" y="148" text-anchor="middle" font-size="10" fill="#7FA3B5">Top 84% (est.)</text>
   </g>
 </svg>
