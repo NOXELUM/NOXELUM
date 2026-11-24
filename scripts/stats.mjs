@@ -42,14 +42,15 @@ async function fetchStats(login, token) {
     pullRequests{totalCount}
     openIssues:issues(states:OPEN){totalCount}
     closedIssues:issues(states:CLOSED){totalCount}
-    contributionsCollection{totalCommitContributions totalPullRequestReviewContributions}
+    contributionsCollection{totalCommitContributions restrictedContributionsCount totalPullRequestReviewContributions}
     repositoriesContributedTo(first:1,contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){totalCount}
     repositories(ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC,first:100){nodes{stargazerCount}}
   }}`;
   const u = (await gql(q, { l: login }, token)).user;
   return {
     stars: u.repositories.nodes.reduce((s, r) => s + r.stargazerCount, 0),
-    commits: u.contributionsCollection.totalCommitContributions,
+    // private contributions are only available as an aggregate count; it also includes private issues/PRs
+    commits: u.contributionsCollection.totalCommitContributions + u.contributionsCollection.restrictedContributionsCount,
     prs: u.pullRequests.totalCount,
     issues: u.openIssues.totalCount + u.closedIssues.totalCount,
     reviews: u.contributionsCollection.totalPullRequestReviewContributions,
@@ -62,28 +63,28 @@ export function render(login, s) {
   const { level, percentile } = calculateRank(s);
   const bg = '#0B1B27', line = '#56E5F6', dim = '#7FA3B5', txt = '#E6F7FB';
   const rows = [
-    ['Total Stars Earned', s.stars],
-    ['Total Commits (last year)', s.commits],
-    ['Total PRs', s.prs],
-    ['Total Issues', s.issues],
-    ['Contributed to (last year)', s.contributedTo],
+    ['Total Stars:', s.stars],
+    ['Total Commits:', s.commits],
+    ['Total PRs:', s.prs],
+    ['Total Issues:', s.issues],
+    ['Contributed to:', s.contributedTo],
   ];
-  const r = 38, c = 2 * Math.PI * r;
+  const r = 30, c = 2 * Math.PI * r;
   const filled = c * (1 - percentile / 100); // fuller ring = better rank
   const list = rows
-    .map(([k, v], i) => `<text x="28" y="${72 + i * 26}" font-size="13" fill="${txt}">${k}:</text><text x="258" y="${72 + i * 26}" font-size="13" font-weight="700" fill="${line}">${v.toLocaleString('en-US')}</text>`)
+    .map(([k, v], i) => `<text x="22" y="${68 + i * 24}" font-size="13" fill="${txt}">${k}</text><text x="150" y="${68 + i * 24}" font-size="13" font-weight="700" fill="${line}">${v.toLocaleString('en-US')}</text>`)
     .join('\n    ');
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="${login} GitHub stats, rank ${level}">
-  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="${bg}" stroke="${line}" stroke-opacity="0.35"/>
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="${login} GitHub stats, rank ${level}">
+  <rect x="1" y="1" rx="5" ry="5" width="338" height="198" fill="${bg}" stroke="${line}" stroke-opacity="0.35"/>
   <g font-family="Segoe UI, Ubuntu, 'Helvetica Neue', Arial, sans-serif">
-    <text x="28" y="38" font-size="18" font-weight="700" fill="${line}">${login}'s GitHub Stats</text>
+    <text x="22" y="34" font-size="18" font-weight="600" fill="${line}">Stats</text>
     ${list}
-    <g transform="translate(400 105)">
+    <g transform="translate(262 98)">
       <circle r="${r}" fill="none" stroke="${line}" stroke-opacity="0.18" stroke-width="6"/>
       <circle r="${r}" fill="none" stroke="${line}" stroke-width="6" stroke-linecap="round" stroke-dasharray="${filled.toFixed(2)} ${c.toFixed(2)}" transform="rotate(-90)"/>
-      <text text-anchor="middle" y="9" font-size="28" font-weight="700" fill="${line}">${level}</text>
+      <text text-anchor="middle" y="9" font-size="26" font-weight="700" fill="${line}">${level}</text>
     </g>
-    <text x="400" y="168" text-anchor="middle" font-size="10" fill="${dim}">Top ${Math.max(1, Math.round(percentile))}% (est.)</text>
+    <text x="262" y="148" text-anchor="middle" font-size="10" fill="${dim}">Top ${Math.max(1, Math.round(percentile))}% (est.)</text>
   </g>
 </svg>
 `;
