@@ -107,13 +107,15 @@ My part is mostly backend — **REST APIs, authorization, validation, PostgreSQL
 ## `04` / GitHub activity
 
 <div align="center">
+  <img src="./assets/profile-details.svg" width="100%" alt="NOXELUM profile details" />
+  <br />
   <img src="./assets/stats.svg" width="49%" alt="NOXELUM GitHub stats" />
   <img src="./assets/lang-commit.svg" width="49%" alt="NOXELUM most used languages" />
   <br />
   <img src="./assets/lang-repo.svg" width="49%" alt="NOXELUM repositories per language" />
   <img src="./assets/productive-time.svg" width="49%" alt="NOXELUM productive time" />
-  <br /><br />
-  <img src="./assets/streak.svg" width="49%" alt="NOXELUM contribution streak" />
+  <br />
+  <img src="./assets/streak.svg" width="100%" alt="NOXELUM contribution streak" />
   <br /><br />
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NOXELUM/NOXELUM/output/pacman-contribution-graph.svg" />
