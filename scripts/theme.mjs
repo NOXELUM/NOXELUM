@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 
 const SRC = 'profile-summary-card-output/tokyonight';
 const FILES = {
+  '0-profile-details.svg': 'assets/profile-details.svg',
   '2-most-commit-language.svg': 'assets/lang-commit.svg',
   '1-repos-per-language.svg': 'assets/lang-repo.svg',
   '4-productive-time.svg': 'assets/productive-time.svg',
