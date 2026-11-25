@@ -36,5 +36,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak.svg assets/stats.svg assets/lang-commit.svg assets/lang-repo.svg assets/productive-time.svg
+          git add assets/streak.svg assets/stats.svg assets/lang-commit.svg assets/lang-repo.svg assets/productive-time.svg assets/profile-details.svg
           git diff --staged --quiet || (git commit -m "chore: update profile cards" && git push)
