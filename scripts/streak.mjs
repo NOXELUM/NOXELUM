@@ -66,21 +66,22 @@ const range = (s) => (s.len ? `${fmt(s.from)} – ${fmt(s.to)}` : 'No streak yet
 
 export function render(login, s) {
   const bg = '#0B1B27', line = '#56E5F6', dim = '#7FA3B5', txt = '#E6F7FB';
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="170" viewBox="0 0 495 170" role="img" aria-label="${login} contribution streak">
-  <rect x="0.5" y="0.5" width="494" height="169" rx="10" fill="${bg}" stroke="${line}" stroke-opacity="0.35"/>
+  const cx = [116.7, 350, 583.3]; // three equal columns across 700px
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200" role="img" aria-label="${login} contribution streak">
+  <rect x="1" y="1" width="698" height="198" rx="5" fill="${bg}" stroke="${line}" stroke-opacity="0.35"/>
   <g font-family="Segoe UI, Ubuntu, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
-    <line x1="165" y1="30" x2="165" y2="140" stroke="${line}" stroke-opacity="0.2"/>
-    <line x1="330" y1="30" x2="330" y2="140" stroke="${line}" stroke-opacity="0.2"/>
-    <text x="82.5" y="80" font-size="34" font-weight="700" fill="${line}">${s.total.toLocaleString('en-US')}</text>
-    <text x="82.5" y="106" font-size="13" font-weight="600" fill="${txt}">Total contributions</text>
-    <text x="82.5" y="126" font-size="11" fill="${dim}">${fmtY(s.since)} – Present</text>
-    <circle cx="247.5" cy="70" r="38" fill="none" stroke="${line}" stroke-width="4"/>
-    <text x="247.5" y="80" font-size="30" font-weight="700" fill="${line}">${s.current.len}</text>
-    <text x="247.5" y="128" font-size="13" font-weight="600" fill="${txt}">Current streak</text>
-    <text x="247.5" y="148" font-size="11" fill="${dim}">${range(s.current)}</text>
-    <text x="412.5" y="80" font-size="34" font-weight="700" fill="${line}">${s.longest.len}</text>
-    <text x="412.5" y="106" font-size="13" font-weight="600" fill="${txt}">Longest streak</text>
-    <text x="412.5" y="126" font-size="11" fill="${dim}">${range(s.longest)}</text>
+    <line x1="233.3" y1="40" x2="233.3" y2="160" stroke="${line}" stroke-opacity="0.2"/>
+    <line x1="466.7" y1="40" x2="466.7" y2="160" stroke="${line}" stroke-opacity="0.2"/>
+    <text x="${cx[0]}" y="102" font-size="40" font-weight="700" fill="${line}">${s.total.toLocaleString('en-US')}</text>
+    <text x="${cx[0]}" y="130" font-size="14" font-weight="600" fill="${txt}">Total contributions</text>
+    <text x="${cx[0]}" y="150" font-size="11" fill="${dim}">${fmtY(s.since)} – Present</text>
+    <circle cx="${cx[1]}" cy="84" r="42" fill="none" stroke="${line}" stroke-width="4"/>
+    <text x="${cx[1]}" y="96" font-size="34" font-weight="700" fill="${line}">${s.current.len}</text>
+    <text x="${cx[1]}" y="150" font-size="14" font-weight="600" fill="${txt}">Current streak</text>
+    <text x="${cx[1]}" y="170" font-size="11" fill="${dim}">${range(s.current)}</text>
+    <text x="${cx[2]}" y="102" font-size="40" font-weight="700" fill="${line}">${s.longest.len}</text>
+    <text x="${cx[2]}" y="130" font-size="14" font-weight="600" fill="${txt}">Longest streak</text>
+    <text x="${cx[2]}" y="150" font-size="11" fill="${dim}">${range(s.longest)}</text>
   </g>
 </svg>
 `;
